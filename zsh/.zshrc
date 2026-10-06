@@ -26,6 +26,7 @@ eval "$(zoxide init zsh)"
 
 source "$DOTFILES_DIR/zsh/aliases.zsh"
 source "$DOTFILES_DIR/zsh/functions.zsh"
+source "$DOTFILES_DIR/zsh/dxt.zsh"
 
 # bun completions
 [[ -s "$HOME/.bun/_bun" ]] && source "$HOME/.bun/_bun"
